@@ -99,4 +99,5 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
 # Vuforia package file
-Packages/com.ptc.vuforia.engine-11.4.4.tgz
+# Ignore package archives (e.g. local .tgz vendor packages) inside Packages/
+Packages/*.tgz
